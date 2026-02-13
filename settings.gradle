@@ -1,17 +1,2 @@
-pluginManagement{
-    repositories{
-        google()
-        mavenCentral()
-        gradlePluginPortal()
-    }
-}
-dependenciesResolutionManagement{
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
-    repositories{
-        google()
-        mavenCentral()
-        maven {url "https://oss.sonatype.org/content/repositories/snapshots/"}
-    }
-}
-rootProject.name = "Atlas Android"
+rootProject.name = "AtlasMobile"
 include ':app'
