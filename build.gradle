@@ -14,7 +14,6 @@ allprojects {
     repositories {
         google()
         mavenCentral()
-        // Repositório necessário para o OSMDroid
         maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
     }
 }
