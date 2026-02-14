@@ -30,3 +30,4 @@ build/
 *.keystore
 *.apk
 *.aab
+.env
